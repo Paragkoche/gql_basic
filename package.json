@@ -1,0 +1,28 @@
+{
+  "name": "gql_basic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "bun nodemon src/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "5.17.0",
+    "@types/graphql-iso-date": "^3.4.3",
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.9.0",
+    "graphql-iso-date": "^3.6.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/express-graphql": "^0.9.0",
+    "@types/graphql": "^14.5.0",
+    "nodemon": "^3.1.4",
+    "prisma": "5.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
